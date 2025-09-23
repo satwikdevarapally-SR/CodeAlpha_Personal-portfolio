@@ -1,0 +1,69 @@
+* {margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif;}
+
+body {background:#f9f9f9; color:#333; line-height:1.6;}
+
+header {
+  background:#333; color:#fff; padding:1rem 0; text-align:center;
+  position: sticky; top: 0; z-index: 100;
+}
+
+nav ul {list-style:none; display:flex; justify-content:center; gap:20px;}
+nav a {color:#fff; text-decoration:none; font-weight:bold;}
+nav a:hover {color:#00bcd4;}
+
+section {padding:60px 20px; max-width:900px; margin:auto; text-align:center;}
+
+h2 {margin-bottom:20px; color:#333;}
+
+.card {
+  background:#fff; padding:20px; margin:15px 0;
+  border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+/* Resume Section */
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.resume-left, .resume-right {
+  flex: 1 1 300px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.download-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #00bcd4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background 0.3s;
+}
+
+.download-btn:hover {
+  background: #0097a7;
+}
+
+
+.skills-list span {
+  display:inline-block; background:#00bcd4; color:#fff;
+  padding:8px 15px; margin:5px; border-radius:20px;
+}
+
+form {display:flex; flex-direction:column; gap:15px; max-width:400px; margin:auto;}
+input, textarea {padding:10px; border:1px solid #ccc; border-radius:5px;}
+button {
+  background:#00bcd4; color:#fff; border:none; padding:10px;
+  border-radius:5px; cursor:pointer;
+}
+button:hover {background:#0097a7;}
+
+#formMsg {margin-top:15px; font-weight:bold;}
+
+footer {background:#333; color:#fff; text-align:center; padding:15px; margin-top:30px;}
